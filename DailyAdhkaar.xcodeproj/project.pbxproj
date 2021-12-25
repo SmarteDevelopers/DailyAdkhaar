@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CEB9C6D12774CCEB007CE439 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C6D02774CCEB007CE439 /* AppDelegate.swift */; };
+		CEB9C6D32774CCEB007CE439 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C6D22774CCEB007CE439 /* SceneDelegate.swift */; };
+		CEB9C6D82774CCEB007CE439 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6D62774CCEB007CE439 /* Main.storyboard */; };
+		CEB9C6DD2774CCED007CE439 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6DC2774CCED007CE439 /* Assets.xcassets */; };
+		CEB9C6E02774CCED007CE439 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6DE2774CCED007CE439 /* LaunchScreen.storyboard */; };
+		CEB9C6E82774CEC7007CE439 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C6E72774CEC7007CE439 /* HomeVC.swift */; };
+		CEB9C6EB2774CF6B007CE439 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C6EA2774CF6B007CE439 /* DataManager.swift */; };
+		CEB9C6F22774E80C007CE439 /* DuaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C6F12774E80C007CE439 /* DuaModel.swift */; };
+		CEB9C6F4277506D4007CE439 /* dua.json in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6F3277506D3007CE439 /* dua.json */; };
+		CEB9C6F8277710A1007CE439 /* DuaCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C6F6277710A1007CE439 /* DuaCell.swift */; };
+		CEB9C6F9277710A1007CE439 /* DuaCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6F7277710A1007CE439 /* DuaCell.xib */; };
+		CEB9C701277765DD007CE439 /* me_quran Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6FB277765DD007CE439 /* me_quran Regular.ttf */; };
+		CEB9C702277765DD007CE439 /* Meera.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6FC277765DD007CE439 /* Meera.ttf */; };
+		CEB9C703277765DD007CE439 /* AmiriQuran.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6FD277765DD007CE439 /* AmiriQuran.ttf */; };
+		CEB9C704277765DD007CE439 /* Meera-05.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6FE277765DD007CE439 /* Meera-05.1.ttf */; };
+		CEB9C705277765DD007CE439 /* XB Niloofar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6FF277765DD007CE439 /* XB Niloofar.ttf */; };
+		CEB9C706277765DD007CE439 /* ThunchanNormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C700277765DD007CE439 /* ThunchanNormal.ttf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CEB9C6CD2774CCEB007CE439 /* DailyAdhkaar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DailyAdhkaar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEB9C6D02774CCEB007CE439 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CEB9C6D22774CCEB007CE439 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		CEB9C6D72774CCEB007CE439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CEB9C6DC2774CCED007CE439 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CEB9C6DF2774CCED007CE439 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CEB9C6E12774CCED007CE439 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB9C6E72774CEC7007CE439 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		CEB9C6EA2774CF6B007CE439 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		CEB9C6F12774E80C007CE439 /* DuaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaModel.swift; sourceTree = "<group>"; };
+		CEB9C6F3277506D3007CE439 /* dua.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = dua.json; sourceTree = "<group>"; };
+		CEB9C6F6277710A1007CE439 /* DuaCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DuaCell.swift; sourceTree = "<group>"; };
+		CEB9C6F7277710A1007CE439 /* DuaCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DuaCell.xib; sourceTree = "<group>"; };
+		CEB9C6FB277765DD007CE439 /* me_quran Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "me_quran Regular.ttf"; sourceTree = "<group>"; };
+		CEB9C6FC277765DD007CE439 /* Meera.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Meera.ttf; sourceTree = "<group>"; };
+		CEB9C6FD277765DD007CE439 /* AmiriQuran.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = AmiriQuran.ttf; sourceTree = "<group>"; };
+		CEB9C6FE277765DD007CE439 /* Meera-05.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Meera-05.1.ttf"; sourceTree = "<group>"; };
+		CEB9C6FF277765DD007CE439 /* XB Niloofar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "XB Niloofar.ttf"; sourceTree = "<group>"; };
+		CEB9C700277765DD007CE439 /* ThunchanNormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThunchanNormal.ttf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEB9C6CA2774CCEB007CE439 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEB9C6C42774CCEB007CE439 = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6CF2774CCEB007CE439 /* DailyAdhkaar */,
+				CEB9C6CE2774CCEB007CE439 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEB9C6CE2774CCEB007CE439 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6CD2774CCEB007CE439 /* DailyAdhkaar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEB9C6CF2774CCEB007CE439 /* DailyAdhkaar */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6F02774E2BA007CE439 /* AppHandlers */,
+				CEB9C6F527771087007CE439 /* View */,
+				CEB9C6EF2774E2A5007CE439 /* Controllers */,
+				CEB9C6FA277765DD007CE439 /* Fonts */,
+				CEB9C6E92774CEFD007CE439 /* Data */,
+				CEB9C6D62774CCEB007CE439 /* Main.storyboard */,
+				CEB9C6DC2774CCED007CE439 /* Assets.xcassets */,
+				CEB9C6DE2774CCED007CE439 /* LaunchScreen.storyboard */,
+				CEB9C6E12774CCED007CE439 /* Info.plist */,
+			);
+			path = DailyAdhkaar;
+			sourceTree = "<group>";
+		};
+		CEB9C6E92774CEFD007CE439 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6EA2774CF6B007CE439 /* DataManager.swift */,
+				CEB9C6F12774E80C007CE439 /* DuaModel.swift */,
+				CEB9C6F3277506D3007CE439 /* dua.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		CEB9C6EF2774E2A5007CE439 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6E72774CEC7007CE439 /* HomeVC.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CEB9C6F02774E2BA007CE439 /* AppHandlers */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6D02774CCEB007CE439 /* AppDelegate.swift */,
+				CEB9C6D22774CCEB007CE439 /* SceneDelegate.swift */,
+			);
+			path = AppHandlers;
+			sourceTree = "<group>";
+		};
+		CEB9C6F527771087007CE439 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6F6277710A1007CE439 /* DuaCell.swift */,
+				CEB9C6F7277710A1007CE439 /* DuaCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CEB9C6FA277765DD007CE439 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				CEB9C6FB277765DD007CE439 /* me_quran Regular.ttf */,
+				CEB9C6FC277765DD007CE439 /* Meera.ttf */,
+				CEB9C6FD277765DD007CE439 /* AmiriQuran.ttf */,
+				CEB9C6FE277765DD007CE439 /* Meera-05.1.ttf */,
+				CEB9C6FF277765DD007CE439 /* XB Niloofar.ttf */,
+				CEB9C700277765DD007CE439 /* ThunchanNormal.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEB9C6CC2774CCEB007CE439 /* DailyAdhkaar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEB9C6E42774CCED007CE439 /* Build configuration list for PBXNativeTarget "DailyAdhkaar" */;
+			buildPhases = (
+				CEB9C6C92774CCEB007CE439 /* Sources */,
+				CEB9C6CA2774CCEB007CE439 /* Frameworks */,
+				CEB9C6CB2774CCEB007CE439 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DailyAdhkaar;
+			packageProductDependencies = (
+			);
+			productName = DailyAdhkaar;
+			productReference = CEB9C6CD2774CCEB007CE439 /* DailyAdhkaar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEB9C6C52774CCEB007CE439 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					CEB9C6CC2774CCEB007CE439 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+				};
+			};
+			buildConfigurationList = CEB9C6C82774CCEB007CE439 /* Build configuration list for PBXProject "DailyAdhkaar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEB9C6C42774CCEB007CE439;
+			packageReferences = (
+			);
+			productRefGroup = CEB9C6CE2774CCEB007CE439 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEB9C6CC2774CCEB007CE439 /* DailyAdhkaar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEB9C6CB2774CCEB007CE439 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB9C706277765DD007CE439 /* ThunchanNormal.ttf in Resources */,
+				CEB9C6E02774CCED007CE439 /* LaunchScreen.storyboard in Resources */,
+				CEB9C6DD2774CCED007CE439 /* Assets.xcassets in Resources */,
+				CEB9C6F4277506D4007CE439 /* dua.json in Resources */,
+				CEB9C703277765DD007CE439 /* AmiriQuran.ttf in Resources */,
+				CEB9C6D82774CCEB007CE439 /* Main.storyboard in Resources */,
+				CEB9C701277765DD007CE439 /* me_quran Regular.ttf in Resources */,
+				CEB9C702277765DD007CE439 /* Meera.ttf in Resources */,
+				CEB9C6F9277710A1007CE439 /* DuaCell.xib in Resources */,
+				CEB9C704277765DD007CE439 /* Meera-05.1.ttf in Resources */,
+				CEB9C705277765DD007CE439 /* XB Niloofar.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEB9C6C92774CCEB007CE439 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEB9C6F8277710A1007CE439 /* DuaCell.swift in Sources */,
+				CEB9C6E82774CEC7007CE439 /* HomeVC.swift in Sources */,
+				CEB9C6EB2774CF6B007CE439 /* DataManager.swift in Sources */,
+				CEB9C6F22774E80C007CE439 /* DuaModel.swift in Sources */,
+				CEB9C6D12774CCEB007CE439 /* AppDelegate.swift in Sources */,
+				CEB9C6D32774CCEB007CE439 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CEB9C6D62774CCEB007CE439 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB9C6D72774CCEB007CE439 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CEB9C6DE2774CCED007CE439 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEB9C6DF2774CCED007CE439 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEB9C6E22774CCED007CE439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CEB9C6E32774CCED007CE439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEB9C6E52774CCED007CE439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35Y7TCQ45E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyAdhkaar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sed.dailyadhkaar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEB9C6E62774CCED007CE439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 35Y7TCQ45E;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DailyAdhkaar/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sed.dailyadhkaar;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEB9C6C82774CCEB007CE439 /* Build configuration list for PBXProject "DailyAdhkaar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB9C6E22774CCED007CE439 /* Debug */,
+				CEB9C6E32774CCED007CE439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEB9C6E42774CCED007CE439 /* Build configuration list for PBXNativeTarget "DailyAdhkaar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEB9C6E52774CCED007CE439 /* Debug */,
+				CEB9C6E62774CCED007CE439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEB9C6C52774CCEB007CE439 /* Project object */;
+}
