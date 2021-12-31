@@ -12,8 +12,12 @@ class HomeVC: UITableViewController {
     var duas = [Dua]()
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        self.view.backgroundColor = .systemBackground
+        
+        navigationController?.navigationBar.backgroundColor = UIColor(named: "ThemeColor")
+        navigationController?.navigationBar.barTintColor = UIColor(named: "ThemeColor")
+        tableView.backgroundColor = UIColor.white.withAlphaComponent(0.5)
+        view.backgroundColor = UIColor(named: "ThemeColor")
+        
         duas = DataManager.shared.getAll()
         print (duas)
         self.title = "Daily Adhkaar"
@@ -34,5 +38,21 @@ class HomeVC: UITableViewController {
         cell.indexPath = indexPath
         cell.updateCell(dua: duas[indexPath.section])
         return cell
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForHeaderInSection section: Int) -> UIView? {
+        let headerView = UIView(frame: CGRect(x: 0, y: 0, width: self.view.frame.width, height: 40))
+        headerView.backgroundColor = UIColor.white.withAlphaComponent(0.4)
+        return headerView
+    }
+    
+    override func tableView(_ tableView: UITableView, viewForFooterInSection section: Int) -> UIView? {
+        let footerView = UIView()
+        footerView.backgroundColor = UIColor.white.withAlphaComponent(0.4)
+        return footerView
+    }
+    
+    override func tableView(_ tableView: UITableView, heightForHeaderInSection section: Int) -> CGFloat {
+        20
     }
 }

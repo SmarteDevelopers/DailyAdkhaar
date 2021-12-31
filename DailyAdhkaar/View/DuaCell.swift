@@ -21,9 +21,9 @@ class DuaCell: UITableViewCell {
         duaText.font = getArabicFont()
         repeatText.text = ""
         
-        self.backgroundColor = .systemBackground
-        number.backgroundColor = .secondarySystemBackground
-        number.textColor = .systemGray
+        self.backgroundColor = UIColor.white.withAlphaComponent(0.6)
+        number.backgroundColor = UIColor.white.withAlphaComponent(0.5)
+        number.textColor = .label
         number.layer.cornerRadius = number.layer.bounds.height / 2
         number.clipsToBounds = true
         duaText.textColor = .label
