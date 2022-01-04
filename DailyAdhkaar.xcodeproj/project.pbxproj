@@ -24,6 +24,8 @@
 		CEB9C704277765DD007CE439 /* Meera-05.1.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6FE277765DD007CE439 /* Meera-05.1.ttf */; };
 		CEB9C705277765DD007CE439 /* XB Niloofar.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C6FF277765DD007CE439 /* XB Niloofar.ttf */; };
 		CEB9C706277765DD007CE439 /* ThunchanNormal.ttf in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C700277765DD007CE439 /* ThunchanNormal.ttf */; };
+		CEB9C7642784AA24007CE439 /* SectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB9C7632784AA24007CE439 /* SectionCell.swift */; };
+		CEB9C7662784AA7D007CE439 /* SectionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEB9C7652784AA7D007CE439 /* SectionCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +48,8 @@
 		CEB9C6FE277765DD007CE439 /* Meera-05.1.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Meera-05.1.ttf"; sourceTree = "<group>"; };
 		CEB9C6FF277765DD007CE439 /* XB Niloofar.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "XB Niloofar.ttf"; sourceTree = "<group>"; };
 		CEB9C700277765DD007CE439 /* ThunchanNormal.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = ThunchanNormal.ttf; sourceTree = "<group>"; };
+		CEB9C7632784AA24007CE439 /* SectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionCell.swift; sourceTree = "<group>"; };
+		CEB9C7652784AA7D007CE439 /* SectionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SectionCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +127,8 @@
 			children = (
 				CEB9C6F6277710A1007CE439 /* DuaCell.swift */,
 				CEB9C6F7277710A1007CE439 /* DuaCell.xib */,
+				CEB9C7632784AA24007CE439 /* SectionCell.swift */,
+				CEB9C7652784AA7D007CE439 /* SectionCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -207,6 +213,7 @@
 				CEB9C6DD2774CCED007CE439 /* Assets.xcassets in Resources */,
 				CEB9C6F4277506D4007CE439 /* dua.json in Resources */,
 				CEB9C703277765DD007CE439 /* AmiriQuran.ttf in Resources */,
+				CEB9C7662784AA7D007CE439 /* SectionCell.xib in Resources */,
 				CEB9C6D82774CCEB007CE439 /* Main.storyboard in Resources */,
 				CEB9C701277765DD007CE439 /* me_quran Regular.ttf in Resources */,
 				CEB9C702277765DD007CE439 /* Meera.ttf in Resources */,
@@ -225,6 +232,7 @@
 			files = (
 				CEB9C6F8277710A1007CE439 /* DuaCell.swift in Sources */,
 				CEB9C6E82774CEC7007CE439 /* HomeVC.swift in Sources */,
+				CEB9C7642784AA24007CE439 /* SectionCell.swift in Sources */,
 				CEB9C6EB2774CF6B007CE439 /* DataManager.swift in Sources */,
 				CEB9C6F22774E80C007CE439 /* DuaModel.swift in Sources */,
 				CEB9C6D12774CCEB007CE439 /* AppDelegate.swift in Sources */,

@@ -16,39 +16,46 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="BAq-BS-quj">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="إِعْدَادُ : سَمِير القُطَيْبِي - وفَّقَه اللهُ" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="NTW-mf-YNS">
-                                <rect key="frame" x="54.5" y="433" width="305" height="30"/>
+                                <rect key="frame" x="54.5" y="383" width="305" height="30"/>
                                 <fontDescription key="fontDescription" type="italicSystem" pointSize="25"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZL-Js-iuC">
-                                <rect key="frame" x="20" y="543" width="374" height="119"/>
-                                <string key="text">وَقْتُ أَذْكَارِ الصَّبَاحِ : مِنْ طُلُوعِ الفَجرِ إلى شُرُوقِ الشَّمْسِ.
-وَوَقْتُ أَذْكَارِ المَسَاء : مِنْ بَعْدِ صَلَاةِ العَصْرِ إِلى غُرُوبِ الشَّمْسِ.
-وَلَا بَأْسَ أَنْ يَأْتِيَ بِهَا بَعْدَ ذَلِكَ إِذَا نَسِيَهَا أَوْ شُغِلَ عَنْهَا.</string>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="0" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TZL-Js-iuC">
+                                <rect key="frame" x="20" y="563" width="374" height="191"/>
+                                <string key="text">وَقْتُ أَذْكَارِ الصَّبَاحِ : مِنْ طُلُوعِ الفَجرِ  إلى شُرُوقِ الشَّمْسِ. 
+وَوَقْتُ أَذْكَارِ المَسَاء : مِنْ بَعْدِ صَلَاةِ العَصْرِ إِلى غُرُوبِ الشَّمْسِ. 
+وَلَا بَأْسَ أَنْ يَأْتِيَ بِهَا بَعْدَ ذَلِكَ إِذَا نَسِيَهَا  أَوْ شُغِلَ عَنْهَا.</string>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle2"/>
                                 <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="صَحِيحُ  أَذْكَارِ الصَّبَاحِ وَالمَسَاءِ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8E5-BJ-HtL">
-                                <rect key="frame" x="20" y="278" width="374" height="75"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="صَحِيحُ  أَذْكَارِ الصَّبَاحِ وَالمَسَاءِ" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8E5-BJ-HtL">
+                                <rect key="frame" x="20" y="144" width="374" height="189"/>
                                 <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" red="0.59215688710000003" green="0.96862745289999996" blue="0.53333336109999996" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="TZL-Js-iuC" secondAttribute="bottom" constant="20" id="Fab-gQ-ICr"/>
+                            <constraint firstAttribute="bottom" secondItem="BAq-BS-quj" secondAttribute="bottom" id="KOB-k0-lfL"/>
+                            <constraint firstItem="BAq-BS-quj" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="Lbu-YF-vt0"/>
                             <constraint firstItem="8E5-BJ-HtL" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Lfi-9X-7Ke"/>
-                            <constraint firstItem="NTW-mf-YNS" firstAttribute="top" secondItem="8E5-BJ-HtL" secondAttribute="bottom" constant="80" id="PkY-oB-FgU"/>
+                            <constraint firstItem="NTW-mf-YNS" firstAttribute="top" secondItem="8E5-BJ-HtL" secondAttribute="bottom" constant="50" id="PkY-oB-FgU"/>
+                            <constraint firstItem="BAq-BS-quj" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="RMa-e0-7XO"/>
+                            <constraint firstItem="8E5-BJ-HtL" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="RbY-8y-HR3"/>
+                            <constraint firstItem="BAq-BS-quj" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="U1x-Lw-xkC"/>
                             <constraint firstAttribute="trailing" secondItem="TZL-Js-iuC" secondAttribute="trailing" constant="20" id="Xgr-u3-FEw"/>
                             <constraint firstItem="NTW-mf-YNS" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Xmb-KB-sLh"/>
-                            <constraint firstItem="TZL-Js-iuC" firstAttribute="top" secondItem="NTW-mf-YNS" secondAttribute="bottom" constant="80" id="bp8-Jt-qR8"/>
-                            <constraint firstItem="NTW-mf-YNS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="cjZ-kf-iB0"/>
+                            <constraint firstItem="TZL-Js-iuC" firstAttribute="top" secondItem="NTW-mf-YNS" secondAttribute="bottom" priority="750" constant="150" id="bp8-Jt-qR8"/>
+                            <constraint firstItem="NTW-mf-YNS" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" constant="-50" id="cjZ-kf-iB0"/>
                             <constraint firstItem="8E5-BJ-HtL" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="l9h-3u-dqx"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8E5-BJ-HtL" secondAttribute="trailing" constant="20" id="mJY-0i-NDR"/>
                             <constraint firstItem="TZL-Js-iuC" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="tP2-dd-DuW"/>
                         </constraints>
                     </view>
@@ -58,4 +65,7 @@
             <point key="canvasLocation" x="52.173913043478265" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Background" width="375" height="812"/>
+    </resources>
 </document>

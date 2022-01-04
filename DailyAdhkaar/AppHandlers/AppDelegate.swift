@@ -14,7 +14,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
         //TODO: For testing - show launch sceen for few seconds
-        Thread.sleep(forTimeInterval: 2)
+//        Thread.sleep(forTimeInterval: 5)
         
         UIView.appearance().semanticContentAttribute = .forceRightToLeft
         
