@@ -388,6 +388,7 @@
 				DEVELOPMENT_TEAM = 35Y7TCQ45E;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyAdhkaar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "أذكارُ  الصباح والمساء";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -416,6 +417,7 @@
 				DEVELOPMENT_TEAM = 35Y7TCQ45E;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = DailyAdhkaar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "أذكارُ  الصباح والمساء";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

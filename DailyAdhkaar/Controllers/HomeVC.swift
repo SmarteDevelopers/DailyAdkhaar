@@ -20,7 +20,7 @@ class HomeVC: UITableViewController {
         
         duas = DataManager.shared.getAll()
         print (duas)
-        self.title = "أَذْكَارِ الصَّبَاحِ وَالمَسَاءِ"
+        self.title = "أذكارُ  الصباح والمساء"
         self.tableView.register(UINib(nibName: "DuaCell", bundle: .main), forCellReuseIdentifier: "CellID")
         self.tableView.allowsSelection = false
     }
